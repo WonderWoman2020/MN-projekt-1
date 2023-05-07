@@ -6,6 +6,10 @@ Program może służyć jako proste narzędzie wspomagające, jeśli posiadamy d
 
 Przykładowe wykresy generowane przez program:
 
+Wykres z całego badanego okresu (1000 dni):
+
 ![wykres 1](./przykłady/wykres_caly.png)
+
+Wykres szczegółowy, pokazujący wycinek czasu z badanego okresu (100 dni):
 
 ![wykres 2](./przykłady/wykres_czesciowy_1.png)
