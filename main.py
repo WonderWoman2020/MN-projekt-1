@@ -60,3 +60,5 @@ print("\nWykresy zostały zapisane w folderze "+sciezka_wyniki+"!")
 print("\nPortfel na początku: \n" + str(algorytm.StanPortfela(1000, 0, dane_caly_wykres.wartosci[0])))
 print("\nPortfel na końcu: \n" + str(dane_caly_wykres.portfel_na_koncu))
 print("\nCałkowity zysk po badanym okresie: "+str(dane_caly_wykres.zysk_koncowy))
+
+input("\nNaciśnij enter, aby zakończyć program")
