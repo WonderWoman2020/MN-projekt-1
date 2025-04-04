@@ -3,7 +3,7 @@
 ## Spis treści
 
 1. [Opis](#opis)
-2. [Wykresy generowane przez program - przykłady](#wykresy-generowane-przez-program---przyklady)
+2. [Wykresy generowane przez program - przykłady](#wykresy-generowane-przez-program---przykłady)
 3. [Instrukcja uruchamiania](#instrukcja-uruchamiania)
 4. [Menu aplikacji](#menu-aplikacji)
 
@@ -30,7 +30,7 @@ Można używać aplikacji na 2 sposoby:
 - Pobrać i uruchomić gotowy plik wykonywalny aplikacji.
 - Uruchomić jako skrypt w Pythonie.
 
-1. Uruchamianie pliku wykonywalnego
+**1. Uruchamianie pliku wykonywalnego**
 
 Najnowsze wydanie narzędzia można pobrać [tutaj](./../../releases). Udostępniany jest plik wykonywalny oraz przykładowe dane do wypróbowania aplikacji. Aby uruchomić, wystarczy kliknąć 2-krotnie myszką na plik lub włączyć narzędzie CMD i wpisać 2 polecenia:
 - `cd` oraz ścieżkę do pliku aplikacji np.:
@@ -47,7 +47,7 @@ Najnowsze wydanie narzędzia można pobrać [tutaj](./../../releases). Udostępn
 
 Następnie należy zaczekać kilka sekund, aż pojawi się menu opcji (plik wykonywalny wygenerowany ze skryptów w Pythonie nie jest zbyt szybki).
 
-2. Uruchamianie skryptu w Pythonie
+**2. Uruchamianie skryptu w Pythonie**
 
 Aby uruchomić program jako skrypt w Pythonie, należy pobrać pliki źródłowe projektu i upewnić się, że mamy zainstalowany interpreter języka Python lub go zainstalować. Następnie można:
 - Otworzyć projekt w ulubionym IDE obsługującym projekty w Pythonie, np. PyCharm
