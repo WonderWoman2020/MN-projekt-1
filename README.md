@@ -3,8 +3,10 @@
 ## Spis treści
 
 1. [Opis](#opis)
-2. [Instrukcja uruchamiania](#instrukcja-uruchamiania)
-3. [Wykresy generowane przez program - przykłady](#wykresy-generowane-przez-program-przyklady)
+2. [Wykresy generowane przez program - przykłady](#wykresy-generowane-przez-program---przyklady)
+3. [Instrukcja uruchamiania](#instrukcja-uruchamiania)
+4. [Menu aplikacji](#menu-aplikacji)
+
 
 ## Opis
 
@@ -12,13 +14,25 @@ Projekt z Metod Numerycznych - wyznaczanie wartości wskaźnika MACD na podstawi
 
 Program może służyć jako proste narzędzie wspomagające, jeśli posiadamy dane o akcjach z pewnego okresu czasu wstecz i chcemy używać wskaźnika MACD do podjęcia decyzji o obrocie akcjami.
 
+## Wykresy generowane przez program - przykłady
+
+1. Wykres z całego badanego okresu (1000 dni):
+
+![wykres 1](./przykłady/wykres_caly.png)
+
+2. Wykres szczegółowy, pokazujący wycinek czasu z badanego okresu (100 dni):
+
+![wykres 2](./przykłady/wykres_czesciowy_1.png)
+
 ## Instrukcja uruchamiania
 
 Można używać aplikacji na 2 sposoby:
-1. Pobrać i uruchomić gotowy plik wykonywalny aplikacji.
-2. Uruchomić jako skrypt w Pythonie.
+- Pobrać i uruchomić gotowy plik wykonywalny aplikacji.
+- Uruchomić jako skrypt w Pythonie.
 
-1. Najnowsze wydanie narzędzia można pobrać [tutaj](./releases). Udostępniany jest plik wykonywalny oraz przykładowe dane do wypróbowania aplikacji. Aby uruchomić, wystarczy kliknąć 2-krotnie myszką na plik lub włączyć narzędzie CMD i wpisać 2 polecenia:
+1. Uruchamianie pliku wykonywalnego
+
+Najnowsze wydanie narzędzia można pobrać [tutaj](./releases). Udostępniany jest plik wykonywalny oraz przykładowe dane do wypróbowania aplikacji. Aby uruchomić, wystarczy kliknąć 2-krotnie myszką na plik lub włączyć narzędzie CMD i wpisać 2 polecenia:
 - `cd` oraz ścieżkę do pliku aplikacji np.:
 
 ```
@@ -33,9 +47,11 @@ Można używać aplikacji na 2 sposoby:
 
 Następnie należy zaczekać kilka sekund, aż pojawi się menu opcji (plik wykonywalny wygenerowany ze skryptów w Pythonie nie jest zbyt szybki).
 
-2. Aby uruchomić program jako skrypt w Pythonie, należy pobrać pliki źródłowe projektu i upewnić się, że mamy zainstalowany interpreter języka Python lub go zainstalować. Następnie można:
-1. Otworzyć projekt w ulubionym IDE obsługującym projekty w Pythonie, np. PyCharm
-2. Lub skorzystać z narzędzia CMD. 
+2. Uruchamianie skryptu w Pythonie
+
+Aby uruchomić program jako skrypt w Pythonie, należy pobrać pliki źródłowe projektu i upewnić się, że mamy zainstalowany interpreter języka Python lub go zainstalować. Następnie można:
+- Otworzyć projekt w ulubionym IDE obsługującym projekty w Pythonie, np. PyCharm
+- Lub skorzystać z narzędzia CMD. 
 
 1. Otwierając projekt w IDE, zwykle wystarczy nacisnąć przycisk F5, aby uruchomić program.
 2. Wybierając narzędzie CMD należy przejść w nim do głównego folderu aplikacji (tam, gdzie znajduje się plik `main.py`) i wpisać polecenie:
@@ -69,14 +85,4 @@ Po wykonaniu się algorytmu i wygenerowaniu wykresów, wyświetli się podsumowa
 Symulacja jest przeprowadzana z założeniem, że na początku posiadamy 1000 akcji. Na końcu obliczany jest zysk, jako stosunek wartości jaką obecnie posiadamy (ilość_akcji * cena + pieniądze_w_kieszeni) do wartości początkowej (ilość_akcji * cena).
 
 Po wykonaniu symulacji możemy zobaczyć wygenerowane wykresy w folderze, ktory podaliśmy jako lokalizację do ich zapisu.
-
-## Wykresy generowane przez program - przykłady
-
-1. Wykres z całego badanego okresu (1000 dni):
-
-![wykres 1](./przykłady/wykres_caly.png)
-
-2. Wykres szczegółowy, pokazujący wycinek czasu z badanego okresu (100 dni):
-
-![wykres 2](./przykłady/wykres_czesciowy_1.png)
 
