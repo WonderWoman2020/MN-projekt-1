@@ -53,12 +53,12 @@ Aby uruchomić program jako skrypt w Pythonie, należy pobrać pliki źródłowe
 - Otworzyć projekt w ulubionym IDE obsługującym projekty w Pythonie, np. PyCharm
 - Lub skorzystać z narzędzia CMD. 
 
-2.1 Otwierając projekt w IDE, zwykle wystarczy nacisnąć przycisk F5, aby uruchomić program.
+2.1. Otwierając projekt w IDE, zwykle wystarczy nacisnąć przycisk F5, aby uruchomić program.
 
-2.2 Wybierając narzędzie CMD należy przejść w nim do głównego folderu aplikacji (tam, gdzie znajduje się plik `main.py`) i wpisać polecenie:
+2.2. Wybierając narzędzie CMD należy przejść w nim do głównego folderu aplikacji (tam, gdzie znajduje się plik `main.py`) i wpisać polecenie:
 
 ```
-py main.py
+> py main.py
 ```
 
 ## Menu aplikacji
